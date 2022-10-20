@@ -11,7 +11,7 @@ const calculate = () => {
 }
 
 const squareRoot = () => {
-  input.value = Math.sqrt(input.value).toFixed(1)
+  input.value = Math.sqrt(input.value)
 }
 
 const clearInput = () => {
